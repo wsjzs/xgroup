@@ -1,0 +1,41 @@
+{
+  "name": "crossbell-app",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev -p 3737",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@crossbell/connect-kit": "1.3.1",
+    "@crossbell/ipfs-gateway": "0.0.19",
+    "@crossbell/ipfs-react": "0.0.19",
+    "@crossbell/notification": "1.3.1",
+    "@crossbell/ui": "1.3.0",
+    "@crossbell/util-metadata": "1.3.0",
+    "@tanstack/react-query": "4.29.12",
+    "eslint": "8.41.0",
+    "eslint-config-next": "13.4.4",
+    "next": "13.4.4",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "typescript": "5.0.4",
+    "wagmi": "1.0.9"
+  },
+  "devDependencies": {
+    "@crossbell/ipfs-gateway-next": "0.0.19",
+    "@types/hast": "2.3.4",
+    "@types/lodash.compact": "3.0.7",
+    "@types/node": "20.2.5",
+    "@types/react": "18.2.7",
+    "@types/react-dom": "18.2.4",
+    "autoprefixer": "10.4.14",
+    "eslint-config-prettier": "8.8.0",
+    "eslint-plugin-prettier": "4.2.1",
+    "postcss": "8.4.24",
+    "prettier": "2.8.8",
+    "tailwindcss": "3.3.2"
+  }
+}
