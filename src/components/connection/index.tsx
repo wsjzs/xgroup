@@ -24,6 +24,9 @@ export function Connection() {
               >
                 {characterName}
               </p>
+              <p>
+                hello
+              </p>
               <p
                 title={address}
                 className="text-sm opacity-80 truncate max-w-full m-0"
